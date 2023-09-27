@@ -1,0 +1,82 @@
+/* шрифти моєї статті */
+
+@font-face {
+	font-family: "EBGaramond08";
+	src: 
+			url("../fonts/AnyConv.com__EBGaramond08-Italic.woff2") format("woff2"),
+			url("../fonts/AnyConv.com__EBGaramond08-Italic.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "EBGaramond08";
+	src: 
+			url("../fonts/AnyConv.com__EBGaramond08-Regular.woff2") format("woff2"),
+			url("../fonts/AnyConv.com__EBGaramond08-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "EBGaramond08";
+	src: 
+			url("../fonts/AnyConv.com__EBGaramondSC08-Regular.woff2") format("woff2"),
+			url("../fonts/AnyConv.com__EBGaramondSC08-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: "Causten";
+	src: 
+			url("../fonts/AnyConv.com__Causten-Bold.woff2") format("woff2"),
+			url("../fonts/AnyConv.com__Causten-Bold.woff") format("woff");
+	font-style: 700;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Causten";
+	src: 
+			url("../fonts/AnyConv.com__Causten-Light.woff2") format("woff2"),
+			url("../fonts/AnyConv.com__Causten-Light.woff") format("woff");
+	font-style: 300;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Causten";
+	src: 
+			url("../fonts/AnyConv.com__Causten-Medium.woff2") format("woff2"),
+			url("../fonts/AnyConv.com__Causten-Medium.woff") format("woff");
+	font-style: 500;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Causten";
+	src: 
+			url("../fonts/AnyConv.com__Causten-Regular.woff2") format("woff2"),
+			url("../fonts/AnyConv.com__Causten-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Causten";
+	src: 
+			url("../fonts/AnyConv.com__Causten-Semi-Bold.woff2") format("woff2"),
+			url("../fonts/AnyConv.com__Causten-Semi-Bold.woff2") format("woff");
+	font-style: 600;
+	font-weight: normal;
+	font-display: swap;
+}
