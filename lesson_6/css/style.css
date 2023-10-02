@@ -1,0 +1,172 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+font-family: "Inter", sans-serif;
+font-size: 18px;
+margin: 30px 0;
+}
+
+/* =================== первый кусок макета ==================== */
+.bisiness {
+	max-width: 692px;
+	margin: 0 auto 100px auto;
+}
+.foto-main {
+	width: 100%;
+	margin-bottom: 37px;
+}
+.title {
+color: #37393F;
+font-family: "Poppins";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 127%;
+}
+.text {
+color: #7D7D7D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+line-height: 146.187%;
+}
+.text-one {
+	margin-bottom: 42px;
+}
+.sub-tstle {
+color: #6B77E5;
+font-family: "Poppins";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 127%;
+margin-bottom: 12px;
+}
+.text-second {
+margin-bottom: 40px;
+}
+
+.benefits {
+	font-size: 0;
+}
+.foto {
+max-width: 360px;
+margin-right: 29px;
+}
+.list {
+display: inline-block;
+max-width: 332px;
+}
+.title-list {
+color: #37393F;
+font-family: "Poppins";
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 127%;
+margin-bottom: 15px;
+}
+.sub-tstle-list {
+color: #40DDB6;
+font-family: "Poppins";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 127%;
+margin-bottom: 21px;
+}
+
+ul {
+color: #7D7D7D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+}
+
+li {
+	margin-bottom: 35px;
+}
+
+li:last-child {
+	margin-bottom: 0;
+}
+
+/* ============ второй кусок макета ================================ */
+.block-second{
+	background-color: #ecf1f0;
+}
+.develop {
+	font-family: "Inter";
+	font-size: 18px;
+	color: #474747;
+	line-height: 180%;
+	max-width: 1176px;
+	margin: 0 auto 100px auto;
+}
+.develop-text {
+	max-width: 563px;
+	display: inline-block;
+	margin-right: 38px;
+	height: 100%;
+}
+
+h4 {
+color: #D06B00;
+font-family: "Inter";
+font-size: 28px;
+margin: 25px 0 13px 0;
+}
+
+h5{
+color: #0E333D;
+font-family: "DM Serif Text";
+font-size: 59px;
+line-height: 146.5%;
+margin-bottom: 25px;
+}
+.develop-image-container{
+	display: inline;
+	font-size: 0;
+}
+.develop-imageone{
+	box-sizing: border-box;
+	width: 273px;
+	height: 518px;
+	margin-right: 22px;
+}
+.develop-imagetwo{
+	width: 273px;
+	height: 518px;
+}
+/* ===================== отработка свойств из ДЗ ======================== */
+
+
+.practice {
+	margin: -30px 50px 0;
+	padding-bottom: 50px;
+	min-height: 30px;
+
+}
+.block {
+	background-color: #e0dddd;
+	padding: 10px 5px 15px 20px;
+	overflow-x: scroll;
+}
+.lorem {
+	background-color: #b4b2b2;
+	margin-bottom: 30px;
+	width: 300px;
+	overflow: scroll;
+	display: inline-block;
+
+}
+.image {
+	background-color: #a08d8d;
+	height: 250px;
+	vertical-align: middle;
+}
+
+.image-two{
+	vertical-align: middle;
+}
