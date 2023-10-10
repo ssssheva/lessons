@@ -1,0 +1,255 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	color: #7d7d7d;
+	font-size: 18px;
+}
+.title-maine-box {
+	width: 1218px;
+	margin: 0 auto;
+	padding: 150px 0;
+}
+.sub-title-box {
+	margin: 0 auto;
+	width: 202px;
+}
+.sub-title-logo {
+	height: 12px;
+	width: 12px;
+	background: #40DDB6;
+	display: inline-block;
+}
+.sub-title-text {
+display: inline-block;
+color: #37393F;
+font-weight: 500;
+}
+.title-maine {
+width: 296px;
+margin: 0 auto;
+color: #37393F;
+text-align: center;
+font-family: "Poppins";
+font-size: 60px;
+font-weight: 700;
+line-height: 121%;
+}
+.blok-one {
+margin: 70px 0 100px 0;
+}
+.text-blok-one {
+	margin-bottom: 32px;
+}
+.title {
+color: #37393F;
+font-family: "Poppins";
+font-size: 40px;
+font-weight: 700;
+line-height: 121%;
+margin:0 0 11px 0;
+}
+.title-text {
+	line-height: 146.187%;
+}
+.sub-title {
+color: #37393F;
+font-family: "Poppins";
+font-size: 30px;
+font-weight: 700;
+}
+.blok-two {
+	margin-bottom: 100px;
+}
+.text-blok-two {
+	margin-bottom: 24px;
+}
+.title-text-color {
+color: #40DDB6;
+line-height: 146.187%;
+}
+span {
+	color: #40DDB6;
+}
+
+/* ==================== кінець першого шматка макету ======================== */
+
+.project {
+	width: 830px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.project-title {
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 127%;
+margin-bottom: 13px;
+}
+.project-text {
+	margin-bottom: 35px;
+}
+.project-text-one {
+	margin-bottom: 27px;
+}
+.project-list {
+color: #7D7D7D;
+font-weight: 500;
+line-height: 146.187%;
+margin: 0 0 35px 16px;
+}
+li {
+	margin-bottom: 33px;
+}
+li:last-child {
+	margin-bottom: 0;
+}
+/* ==================== кінець другого шматка макету ======================== */
+.clothing {
+width: 1240px;
+margin: 0 auto;
+padding-left: 21px;
+font-family: "Causten" , sans-serif;
+color: #807D7E;
+font-size: 20px;
+line-height: 33.5px;
+letter-spacing: 0.4px;
+}
+
+.clothing-title {
+margin-bottom: 30px;
+}
+.clothing-title-logo {
+width: 6px;
+height: 28px;
+border-radius: 10px;
+background: #8A33FD;
+display: inline-block;
+margin-left: -27px;
+}
+.clothing-title-text {
+color: #3C4242;
+font-family: "CoreSansC";
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 0.56px;
+margin-left: 15px;
+display: inline-block;
+}
+.clothing-sub-title {
+color: #807D7E;
+font-family: "CoreSansC";
+font-weight: 600;
+margin-bottom: 25px;
+}
+.clothing-text {
+color: #807D7E;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.clothing-text-second {
+	margin-bottom: 25px;
+}
+.clothing-selected {
+	font-weight: 700;
+	color: #807D7E;
+}
+/* ==================== кінець третього шматка макету ======================== */
+
+.develop {
+width: 1104px;
+margin: 0 auto;
+padding: 50px 0;
+color: #606060;
+font-family: "Cormorant Infant";
+font-size: 30px;
+font-weight: 700;
+line-height: 140%;
+}
+.develop-text {
+	max-width: 503px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 75px;
+}
+.develop-title {
+color: #D58417;
+font-size: 20px;
+line-height: 100%;
+margin-bottom: 27px;
+}
+.develop-title-maine {
+color: #000;
+font-size: 64px;
+line-height: 100%;
+margin-bottom: 31px;
+}
+.develop-title-text {
+}
+.develop-image {
+	display: inline;
+	font-size: 0;
+}
+.develop-image-one {
+	width: 177px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+	border: 1px solid #000000;
+	border-radius: 235px;
+}
+.develop-image-two {
+	width: 307px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #000000;
+	border-radius: 235px;
+}
+
+img {
+margin: 20px 0 -20px -10px;
+}
+/* ==================== кінець четвертого шматка макету ======================== */
+.lesson-container{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.lesson {
+	background-color: #40DDB6;
+	width: 200px;
+	border: 2px solid blue;
+	margin-bottom: 20px;
+}
+.lesson1 {
+	background-color: goldenrod;
+	width: 200px;
+	height: 100px;
+	border-top: 5px solid #000;
+	border-right: 5px dashed red;
+	border-bottom: 5px solid #000;
+	border-left: 5px dashed green;
+	margin-bottom: 50px;
+}
+.lesson2 {
+	background-color: goldenrod;
+	width: 200px;
+	height: 50px;
+	outline: 5px solid red;
+	margin-bottom: 50px;
+	opacity: 50%;
+}
+.lesson3 {
+	background-color: goldenrod;
+	width: 300px;
+	height: 100px;
+	background-color: yellow;
+	border-radius: 50%;
+	outline: 5px solid red;
+	margin-bottom: 50px;
+	box-shadow: 10px 10px 10px 15px blueviolet, -15px -15px 25px 15px grey;
+}
