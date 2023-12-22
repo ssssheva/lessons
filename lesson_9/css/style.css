@@ -1,0 +1,249 @@
+@import url("fonts.css");
+@import url("reset.css");
+@import url("layout.css");
+
+h1 {
+  height: 40px;
+  padding-top: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  border-bottom: 2px solid black;
+  font-weight: 600;
+  font-size: 20;
+}
+
+.container{
+  background-color: antiquewhite;
+  padding-top: 20px;
+  height: 300px;
+}
+.container:hover .red{
+background-color: brown;
+}
+
+.red{
+  background-color: aqua;
+}
+
+.link {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 300px;
+  height: 50px;
+  background-color: aqua;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  width: 350px;
+  height: 100px;
+  padding-top: 40px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.link:active {
+  background-color: greenyellow;
+}
+
+.grey:visited {
+  background-color: gray;
+}
+
+.grey:focus {
+  border: 2px solid red;
+}
+
+.visible {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  text-align: center;
+  border-radius: 50%;
+  visibility: hidden;
+}
+
+.visible:target {
+  visibility: visible;
+}
+
+.second{
+height: 600px;
+}
+
+.text {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text *:last-child {
+	color: greenyellow;
+}
+
+.text *:first-child {
+	color: green;
+}
+
+.text a:first-of-type {
+color: blue;
+}
+
+.text a:last-of-type {
+  color: darkorange;
+}
+
+.text *:nth-child(3) {
+  text-transform: uppercase;
+}
+
+.text::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border-radius: 50%;
+  outline: 5px solid red;
+  visibility: hidden;
+}
+
+.text::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border-radius: 50%;
+  outline: 5px solid red;
+  visibility: hidden;
+}
+
+.text:hover::before {
+  visibility: visible;
+}
+
+.text:hover::after {
+  visibility: visible;
+}
+
+.three {
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.game {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: beige;
+  border: 2px solid blue;
+
+}
+.section-one {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.section-one:hover + .section-two,
+.section-two:hover {
+  visibility: visible;
+}
+
+.section-two {
+  height: 10px;
+  background-color: blue;
+  visibility: hidden;
+}
+
+.section-two:hover ~ .section-three,
+.section-three:hover {
+  visibility: visible;
+}
+
+.section-three {
+  width: 10px;
+  height: 50px;
+  margin-left: 588px;
+  background-color: blue;
+  visibility: hidden;
+}
+
+.section-three:hover ~ .section-four,
+.section-four:hover {
+  visibility: visible;
+}
+
+.section-four {
+  width: 400px;
+  height: 10px;
+  margin-left: 198px;
+  background-color: blue;
+  visibility: hidden;
+}
+
+.section-four:hover ~ .section-five,
+.section-five:hover {
+  visibility: visible;
+}
+
+.section-five {
+  width: 20px;
+  height: 300px;
+  margin-left: 198px;
+  background-color: blue;
+  visibility: hidden;
+}
+
+.section-five:hover + .section-six,
+.section-six:hover {
+  visibility: visible;
+}
+
+.section-six {
+  width: 100px;
+  height: 10px;
+  margin-left: 198px;
+  background-color: blue;
+  visibility: hidden;
+}
+
+.section-six:hover + .section-seven,
+.section-seven:hover {
+  visibility: visible;
+}
+
+.section-seven {
+  width: 10px;
+  height: 100px;
+  margin-left: 288px;
+  background-color: blue;
+  visibility: hidden;
+}
+
+.section-seven:hover + .finish,
+.finish:hover {
+  visibility: visible;
+}
+
+.finish {
+  width: 50px;
+  height: 50px;
+  margin-left: 267px;
+  background-color: blue;
+  visibility: hidden;
+}
+
+.finish:hover {
+  width: 55px;
+  height: 55px;
+  background-color: brown;
+  transition: all 0.5s;
+  border-radius: 50%;
+}
+
+
