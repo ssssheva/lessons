@@ -1,0 +1,83 @@
+@import url("reset.css");
+
+header {
+  height: 100px;
+  background-color: blue;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+img {
+  
+}
+
+h1 {
+  width: 250px;
+  padding-top: 20px;
+  margin: 0 auto;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h2 {
+  width: 250px;
+  padding-top: 50px;
+  margin: 0 auto;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.vector {
+  display: flex;
+  height: 100px;
+  margin-top: 20px;
+  padding: 40px;
+  background-color: rgb(18, 103, 103);
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.vector-content {
+  display: flex;
+  height: 200px;
+  margin-top: 20px;
+  padding: 50px;
+  background-color: rgb(121, 127, 127);
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.icon-content {
+  width: 72px;
+  height: 72px;
+}
+
+.vector-logo {
+  display: flex;
+  height: 200px;
+  margin-top: 20px;
+  padding: 50px;
+  background-color: rgb(158, 238, 238);
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 140px;
+}
+
+.content-webp {
+  display: flex;
+  height: 200px;
+  margin-top: 20px;
+  padding: 50px;
+  background-color: rgb(174, 83, 204);
+  border-radius: 5px;
+  justify-content: space-between;
+}
