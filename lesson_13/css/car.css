@@ -1,0 +1,117 @@
+.car__container {
+  width: 1270px;
+  height: 190px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: rgba(117, 131, 134, 0.725);
+}
+
+.car__glass {
+  width: 5px;
+  height: 40px;
+  margin-left: 585px;
+  margin-bottom: -10px;
+  background-color: aqua;
+  border-radius: 2px;
+  transform: rotate(-45deg)
+}
+
+.car__body {
+  width: 400px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 100px;
+  background-color: rgb(249, 125, 48);
+}
+
+.car__body::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  border-radius: 60%;
+  margin-left: 330px;
+  background-color: rgb(232, 244, 7);
+}
+
+.car__body::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: rgb(246, 12, 12);
+}
+
+.car__wheel {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: silver;
+  border-radius: 50%;
+  border: 15px solid black;
+  transform: translate(0, -61px);
+}
+
+.car__wheel::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 60px;
+  background-color: black;
+  transform: translate(20px, -20px);
+}
+
+.car__wheel::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 10px;
+  background-color: black;
+  transform: translate(0, 17px);
+}
+
+.wheel--front {
+  margin-left: 170px;
+}
+.wheel--behind {
+  margin-left: 450px;
+}
+
+hr {
+  background-color: black;
+  height: 2px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: -77px;
+}
+
+.car__container:hover .wheel--front {
+  transform: rotate(-45deg) translate(0, -88px);
+}
+
+.car__container:hover .wheel--behind {
+  transform: rotate(-45deg) translate(0, -88px);
+  margin-left: 510px;
+}
+
+.car__container:hover hr {
+  margin-left: 250px;
+}
+
+.car__container:hover .car__body::after {
+  box-shadow:
+  1.6px 1.6px 7.4px rgb(233, 244, 17),
+  3.4px 3.4px 14.7px rgb(233, 244, 17),
+  5.8px 5.8px 22.1px rgb(233, 244, 17),
+  8.7px 8.7px 29.5px rgb(233, 244, 17),
+  12.5px 12.5px 36.9px rgb(233, 244, 17),
+  17.7px 17.7px 44.4px rgb(233, 244, 17),
+  25.1px 25.1px 52.1px rgb(233, 244, 17),
+  36.5px 36.5px 60.2px rgb(233, 244, 17),
+  56.3px 56.3px 69.2px rgb(233, 244, 17),
+  100px 100px 80px rgb(233, 244, 17);
+}
+

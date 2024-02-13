@@ -1,0 +1,133 @@
+@import url("reset.css");
+@import url("car.css");
+
+header {
+  height: 40px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(135, 137, 138);
+}
+
+h1, h2 {
+text-align: center;
+}
+
+.container {
+  width: 1270px;
+  height: 190px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: rgba(117, 131, 134, 0.725);
+}
+
+.container__card {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  background-color: rgb(221, 233, 233);
+}
+
+.container__item-card{
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background-color: rgb(182, 194, 194);
+  border: 1px solid black;
+}
+
+.translate-card:hover .translate-item {
+  transform: translate(10px, 10px);
+}
+
+.scale-card:hover .scale-item {
+  transform: scale(0.8);
+}
+
+.rotate-card:hover .rotate-item {
+  transform: rotate(40deg);
+}
+
+.skew-card:hover .skew-item {
+  transform: skew(10deg, 10deg)
+}
+
+.origin-card:hover .origin-item {
+  transform-origin: 0 0;
+  transform: scale(0.5);
+}
+
+.perspective-card{
+  perspective: 100px;
+  perspective-origin: center;
+}
+
+.perspective-card:hover .perspective-item {
+  transform: rotateX(30deg)
+}
+
+.translated-card {
+  perspective: 100px;
+  perspective-origin: 45px -6px;
+}
+
+.translated-card:hover .translated-item {
+  transform: translate3d(-15px, -45px, -75px);
+}
+
+.stile-card {
+  perspective: 100px;
+  perspective-origin: center;
+  transform-style: preserve-3d;
+  background-color: rgb(221, 233, 233, 0.1);
+}
+
+.stile-card:hover .stile-item {
+  transform: rotateY(25deg)
+}
+
+.dollar__container {
+  width: 669px;
+  height: 283px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.dollar__item {
+  position: relative;
+  perspective: 1000px;
+}
+
+.dollar__front,
+.dollar__back {
+	position: absolute;
+  width: 669px;
+  height: 283px;
+	left: 0;
+	top: 0;
+	transition: all 1s;
+}
+
+.dollar__front {
+	background-image: url("/img/front.jpg");
+	transform: rotateY(0deg);
+}
+
+.dollar__back {
+	background-image: url("/img/back.jpg");
+	transform: rotateY(-180deg);
+  backface-visibility: hidden;
+}
+
+.dollar__item:hover .dollar__back {
+	transform: rotateY(0deg);
+}
+
+.dollar__item:hover .dollar__front {
+	transform: rotateY(180deg);
+}
+
+.car__container {
+  margin-top: 150px;
+}
