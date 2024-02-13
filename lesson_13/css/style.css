@@ -110,12 +110,12 @@ text-align: center;
 }
 
 .dollar__front {
-	background-image: url("img/front.jpg");
+	background-image: url("/img/front.jpg");
 	transform: rotateY(0deg);
 }
 
 .dollar__back {
-	background-image: url("img/back.jpg");
+	background-image: url("/img/back.jpg");
 	transform: rotateY(-180deg);
   backface-visibility: hidden;
 }
