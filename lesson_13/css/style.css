@@ -96,6 +96,8 @@ text-align: center;
 
 .dollar__item {
   position: relative;
+  width: 669px;
+  height: 283px;
   perspective: 1000px;
 }
 
