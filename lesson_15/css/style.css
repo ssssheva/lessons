@@ -1,0 +1,211 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("wishlist.css");
+@import url("order.css");
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.header__container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 34px 0;
+}
+
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Causten";
+}
+
+.header__left-block {
+  flex: 0 1 439px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__button-search {
+  flex: 0 1 184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 12px 48px;
+  border-radius: 8px;
+  background: rgb(246, 246, 246);
+}
+
+.search__input {
+  width: 56px;
+  color: rgb(128, 125, 126);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  background: none;
+  outline: none;
+}
+
+.header__right-block {
+  flex: 0 1 591px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang__select {
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.lang__text {
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.lang__link {
+  margin-left: 19px;
+}
+
+.lang__image {
+  width: 10px;
+  margin-top: 10px;
+}
+
+.header__buttons { 
+  display: flex;
+  flex: 0 1 323px;
+  justify-content: space-between;
+}
+
+.header__batton {
+  padding: 12px 48px;
+  border-radius: 8px;
+  background-color: rgb(138, 51, 253);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+}
+
+.button--white {
+  color: rgb(138, 51, 253);
+  background-color:rgb(255, 255, 255);
+  border: 1px solid rgb(60, 66, 66);
+}
+
+.products__title {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 50px;
+  color: rgb(60, 66, 66);
+  font-family: "CoreSansC";
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 33.5px;
+}
+
+.products__text-title::before {
+  content: "";
+  width: 6px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 20px;
+  background: rgb(138, 51, 253);
+  margin-bottom: -3px;
+}
+
+.products__container {
+  max-width: 1240px;
+	margin: 0 auto;
+  padding-top: 70px;
+  font-family: "Causten";
+}
+
+.products__page {
+	padding: 50px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -25px;
+}
+
+.products__column {
+	padding: 0 25px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 25%;
+	margin-bottom: 50px;
+}
+
+.item-product {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.item-product__image {
+	overflow: hidden;
+	border-radius: 10px;
+}
+.item-product__image img {
+	max-width: 100%;
+}
+
+.item-product__image:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.item-product__body {
+	display: flex;
+	flex-grow: 1;
+}
+
+.item-product__content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.item-product__title {
+	flex-grow: 1;
+  color: rgb(42, 47, 47);
+  font-size: 17.88px;
+  font-weight: 700;
+  line-height: 27.93px;
+  letter-spacing: -4%;
+  text-align: left;
+}
+
+.item-product__link {
+	align-self: flex-start;
+	min-height: 14px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 18px;
+	background: url("../img/arrow-product.svg") center no-repeat;
+}
+
+.item-product__text {
+  color: rgb(127, 127, 127);
+  font-size: 13.41px;
+  font-weight: 500;
+  line-height: 27.93px;
+  letter-spacing: -4%;
+  text-align: left;
+}
+
+footer {
+  height: 60px;
+  background-color: rgb(127, 127, 127);
+
+}

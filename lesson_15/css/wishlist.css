@@ -1,0 +1,81 @@
+.wishlist__title {
+  max-width: 903px;
+  margin: 0 auto;
+}
+
+.wishlist__text-title {
+  color: rgb(60, 66, 66);
+  font-family: "CoreSansC";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.5px;
+}
+
+.wishlist__container {
+  max-width: 903px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.wishlist__page {
+padding: 30px 0;
+font-family: "Causten";
+border-bottom: 1px solid rgb(237, 238, 242);
+}
+
+.wishlist__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wishlist__link-close {
+  width: 18px;
+  background: url("../img/close-cross.svg") left no-repeat;
+}
+
+.wishlist__image {
+  margin-left: 40px;
+}
+
+.wishlist__list {
+  margin-left: 36px;
+  color: rgb(60, 66, 66);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.wishlist__item-list:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.wishlist__text-grey {
+  color: rgb(128, 125, 126);
+}
+
+.wishlist__price {
+  display: flex;
+  align-items: center;
+  margin-left: 161px;
+  color: rgb(128, 125, 126);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.wishlist__bottom-container {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.wishlist__bottom {
+  height: 50px;
+  padding: 14px 28px;
+  border-radius: 8px;
+  background: rgb(138, 51, 253);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}

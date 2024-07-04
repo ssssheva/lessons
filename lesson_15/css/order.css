@@ -1,0 +1,85 @@
+.order__container {
+  max-width: 895px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: "Causten";
+}
+
+.order__page {
+  padding: 30px 0;
+  border-bottom: 1px solid rgb(237, 238, 242);
+}
+
+.order__top {
+  border-radius: 8px;
+  background: rgb(246, 246, 246);
+  padding: 28px 47px;
+  margin-bottom: 30px;
+}
+
+.order__title {
+  color: rgb(60, 66, 66);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.order__item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.order__item-text:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.column-right {
+  display: flex;
+  justify-content: end;
+}
+
+.order__through {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order__item-through {
+  display: flex;
+}
+
+.order__list {
+  margin-left: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}
+
+.order__item-list-main {
+  color: rgb(60, 66, 66);
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+
+.order__item-list:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.order__bottom-container {
+  display: flex;
+  align-items: center;
+}
+
+.order__bottom-through {
+  padding: 14px 28px;
+  border-radius: 8px;
+  background: rgb(138, 51, 253);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
