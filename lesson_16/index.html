@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/gap.ico" type="image/x-icon">
+  <title>Lesson 16</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="hader">
+      <h1 class="header__title">FORMS</h1>
+    </header>
+    <main>
+      <div class="container">
+        <h2>My Info</h2>
+        <h3>Add Address</h3>
+        <form class="container-forms" method="post" enctype="multipart/form-data" action="#">
+          <div class="info-item">
+            <div class="form__line form-top">
+              <label class="form__label" for="name">First Name*</label>
+              <input class="form__input" id="name" autocomplete="on" name="name" placeholder="First Name" value type="text">
+            </div>
+            <div class="form__line form-top">
+              <label class="form__label" for="country">Country / Region*</label>
+              <input class="form__input" id="country" autocomplete="on" name="country" placeholder="Country / Region" value type="text">
+            </div>
+            <div class="form__line form-top">
+              <label class="form__label" for="street">Street Address*</label>
+              <input class="form__input" id="street" autocomplete="on" name="street" placeholder="House number and street name" value type="text">
+            </div>
+            <div class="form__line form-top">
+              <label class="form__label" for="city">City*</label>
+              <input class="form__input" id="city" autocomplete="on" name="city" placeholder="Town / City" value type="text">
+            </div>
+            <div class="form__line form-top">
+              <label class="form__label" for="phone">Phone*</label>
+              <input class="form__input" id="phone" autocomplete="on" name="phone" placeholder="Phone" value type="tel">
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="form__line">
+              <div class="form__line form-top">
+                <label class="form__label" for="surname">Last Name*</label>
+                <input class="form__input" id="surname" autocomplete="on" name="surname" placeholder="Last name" value type="text">
+              </div>
+              <div class="form__line form-top">
+                <label class="form__label" for="company">Company Name</label>
+                <input class="form__input" id="company" autocomplete="on" name="company" placeholder="Company (optional)" value type="text">
+              </div>
+              <div class="form__line form-top">
+                <label class="form__label" for="apt">Apt, suite, unit</label>
+                <input class="form__input" id="apt" autocomplete="on" name="apt" placeholder="apartment, suite, unit, etc. (optional)" value type="text">
+              </div>
+              <div class="form__line form-top select-tipe">
+                <label class="form__label" for="state">State*</label>
+                  <select class="form__select" name="state" id="state">
+                    <option value="state" disabled selected>State</option>
+                    <option value="Texas">Texas</option>
+                    <option value="California">California</option>
+                  </select>
+              </div>
+              <div class="form__line form-top">
+                <label class="form__label" for="post">Postal Code*</label>
+                <input class="form__input" id="post" autocomplete="on" name="post" placeholder="Postal Code" value type="number">
+              </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </div>
+</body>
+
+</html>
