@@ -1,0 +1,372 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+
+
+.header__title {
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: rgb(181, 176, 176);
+  margin-bottom: 20px;
+}
+
+.product {
+  background: url("/img/poppy.png") right -150px bottom 40px no-repeat #FEFAF4;
+  padding: 125px 0 114px 0;
+}
+
+[class*="__container"] {
+    max-width: 1197px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.product__title {
+  margin-bottom: 27px;
+}
+
+.title {
+  color: #000;
+  font-family: "DM Serif Text", sans-serif;
+  font-size: 58px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.product__subtitle {
+  margin-bottom: 53px;
+}
+
+.subtitle {
+  color: #606060;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.product__items {
+  display: flex;
+  column-gap: 48px;
+  flex-grow: 1;
+  overflow: hidden;
+  margin-bottom: 76px;
+}
+
+.product__item {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 33.333%;
+}
+
+.item-product__link {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 16px;
+  transition: box-shadow 0.3s linear;  
+}
+
+.item-product__image {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 406 / 236;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s linear;  
+}
+
+.item-product__title {
+  font-family: "DM Serif Text", sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 16px;  
+}
+
+.item-product__text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 8px;  
+}
+
+.item-product__link-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  transition: all 0.3s linear;
+  color: #F55529;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  transition: all 0.3s;  
+}
+
+.popular__title {
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.popular__subtitle {
+  text-align: center;
+  margin-bottom: 62px;
+  color: rgb(129, 129, 129);
+  font-family: "Cormorant Infant";
+  font-size: 30px;
+}
+
+.item-popular__image {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 271 / 270;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s linear;  
+}
+
+.item-popular__title, .item-popular__text {
+  color: rgb(0, 0, 0);
+  font-family: "Cormorant Infant";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.item-popular__title {
+  margin-bottom: 17px;
+}
+
+.item-popular__text {
+  margin-bottom: 4px;
+}
+
+.our {
+  background: rgb(14, 51, 61);
+  color: #FFFFFF;
+  padding: 94px 0;
+}
+
+.our__title {
+  color: rgb(255, 255, 255);
+  font-family: "DM Serif Text";
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.our__subtitle {
+  color: rgb(235, 235, 235);
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.our__links {
+  text-align: center;
+  margin-bottom: 77px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.our__link:not(:last-child) {
+  margin-right: 41px;
+}
+
+.item-our__title, .item-our__text {
+  color: rgb(255, 255, 255);
+  font-family: "Cormorant Infant";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.item-our__title {
+  margin-bottom: 4px;
+}
+
+.choose {
+  position: relative;
+  background-color: #37393F;
+  color: #FFFFFF;
+  padding: 138px 0;
+  margin-bottom: 150px;
+}
+
+.choose__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 45%;
+  object-fit: cover;
+}
+
+.choose__container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.choose__block {
+  max-width: 610px;
+}
+
+.choose__subtitle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 13px;
+}
+
+.choose__subtitle::before {
+  content: "";
+  display: flex;
+  flex: 0 0 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #40DDB6;
+}
+
+.choose__title {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 121%;
+  margin-bottom: 13px;
+}
+
+.choose__text {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 146.19%;
+  margin-bottom: 36px;
+}
+
+.choose__bar {
+  display: flex;
+  flex: 0 1 auto;
+  gap: 15px;
+  margin-bottom: 36px;
+}
+
+.choose__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 23px;
+  max-height: 82px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.choose__item-list {
+  display: inline-flex;
+  column-gap: 5px;
+  flex: 0 1 50%;
+  align-items: center;
+}
+
+.choose__item-list::before {
+  content: "";
+  width: 27px;
+  height: 27px;
+  background: url("/img/check.svg") 0 0 no-repeat;
+  margin-right: 3px;
+}
+
+.choose__item-last {
+  display: inline-flex;
+  column-gap: 5px;
+  flex: 0 1 50%;
+  align-items: center;
+  color: rgb(64, 221, 182);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline 3px solid;
+}
+
+.choose__star {
+  color: #FFB342;
+}
+
+
+@media (max-width: 1450px) {
+  .product {
+      background: #FEFAF4;
+      padding: 125px 0 115px 0;
+  }
+}
+
+@media (max-width: 1170px) {
+  .choose__bar {
+    flex-direction: column;
+  }
+  .choose__icon {
+    max-width: 298px;
+  }
+}
+
+@media (max-width: 1032px) {
+  .choose__image{
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .title {
+    font-size: 38px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .item-product__title {
+    font-size: 18px;
+  }
+  [class*="__text"] {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product {
+    padding: 50px 0 50px 0;
+  }
+  .product__items {
+    flex-direction: column;
+  }
+  .product__item {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 555px) {
+  .choose__list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (any-hover: hover){
+	.our__link:hover{
+    outline: 2px #FFFFFF;
+	}
+}
