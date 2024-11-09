@@ -95,7 +95,6 @@
   font-size: 34px;
   font-weight: 600;
   line-height: 33.5px;
-  letter-spacing: 2%;
   align-items: center;
   gap: 20px;
   margin-bottom: 70px;
@@ -159,7 +158,6 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 1%;
 }
 
 .saving__link-top {
